@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Agenda</string>
+
+    <string name="navigation_drawer_open">Menu</string>
+    <string name="navigation_drawer_close">Fechar</string>
+
+    <string name="action_settings">Configuração</string>
+    <string name="cadEvento_departamentos">Departamentos</string>
+    <string name="cadEvento_dia">Dia</string>
+    <string name="cadEvento_titulo">Título</string>
+    <string name="navAdmin_cadCategoria">Cadastrar Categoria</string>
+    <string name="navAdmin_cadUsuario">Cadastrar Usuário</string>
+    <string name="navAdmin_listaCategoria">Listar Categorias</string>
+    <string name="navAdmin_listaUsuario">Listar Usuários</string>
+    <string name="navUser_verMes">Ver Mês</string>
+    <string name="navUser_verSemana">Ver Semana</string>
+    <string name="atividade_cadEvento">Cadastrar um novo Evento</string>
+</resources>

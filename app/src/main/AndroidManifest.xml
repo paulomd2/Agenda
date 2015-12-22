@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.paulosergioxavier.agenda">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".eventos"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CadEvento"
+            android:label="@string/atividade_cadEvento"
+            android:theme="@style/AppTheme.NoActionBar">
+            android:parentActivityName=".eventos">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.paulosergioxavier.agenda.eventos" />
+        </activity>
+        <activity
+            android:name=".verEventos"
+            android:label="@string/title_activity_ver_eventos"
+            android:parentActivityName=".eventos"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.paulosergioxavier.agenda.eventos" />
+        </activity>
+        <activity
+            android:name=".listaUsuario"
+            android:label="@string/title_activity_lista_usuario"
+            android:parentActivityName=".eventos"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.paulosergioxavier.agenda.eventos" />
+        </activity>
+        <activity
+            android:name=".cadUsuario"
+            android:label="@string/title_activity_cad_usuario"
+            android:parentActivityName=".listaUsuario"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.paulosergioxavier.agenda.listaUsuario" />
+        </activity>
+        <activity
+            android:name=".listaCategoria"
+            android:label="@string/title_activity_lista_categoria"
+            android:parentActivityName=".eventos"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.paulosergioxavier.agenda.eventos" />
+        </activity>
+        <activity
+            android:name=".cadCategoria"
+            android:label="@string/title_activity_cad_categoria"
+            android:parentActivityName=".listaCategoria"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.paulosergioxavier.agenda.listaCategoria" />
+        </activity>
+    </application>
+
+</manifest>

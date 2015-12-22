@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user_verMes"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/navUser_verMes" />
+        <item
+            android:id="@+id/nav_user_verSemana"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/navUser_verSemana" />
+    </group>
+
+    <item android:title="Administrador">
+        <menu>
+            <item
+                android:id="@+id/nav_admin_cadUsuario"
+                android:icon="@drawable/side_nav_bar"
+                android:title="@string/navAdmin_cadUsuario" />
+            <item
+                android:id="@+id/nav_admin_listaUsuario"
+                android:icon="@drawable/side_nav_bar"
+                android:title="@string/navAdmin_listaUsuario" />
+
+
+            <item
+                android:id="@+id/nav_admin_cadCategoria"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/navAdmin_cadCategoria" />
+            <item
+                android:id="@+id/nav_admin_listaCategoria"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/navAdmin_listaCategoria" />
+        </menu>
+    </item>
+
+</menu>
