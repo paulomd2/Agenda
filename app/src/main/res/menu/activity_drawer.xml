@@ -14,20 +14,20 @@
 
     <item android:title="Administrador">
         <menu>
-            <item
+            <!--item
                 android:id="@+id/nav_admin_cadUsuario"
                 android:icon="@drawable/side_nav_bar"
-                android:title="@string/navAdmin_cadUsuario" />
+                android:title="@string/navAdmin_cadUsuario" /-->
             <item
                 android:id="@+id/nav_admin_listaUsuario"
                 android:icon="@drawable/side_nav_bar"
                 android:title="@string/navAdmin_listaUsuario" />
 
 
-            <item
+            <!--item
                 android:id="@+id/nav_admin_cadCategoria"
                 android:icon="@drawable/ic_menu_send"
-                android:title="@string/navAdmin_cadCategoria" />
+                android:title="@string/navAdmin_cadCategoria" /-->
             <item
                 android:id="@+id/nav_admin_listaCategoria"
                 android:icon="@drawable/ic_menu_send"
